@@ -147,6 +147,8 @@ CREATE TABLE playlist_tracks (
 ---
 
 ## SQL Queries and Guidebook
+**All the queries can be found in `data_exploration.sql`**
+
 | #  | Query Title                        | Goal                                          | SQL Features Used                                                   | Notes / Interpretation |
 |----|-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------|----------------------|
 | 1  | Total Tracks by Playlist           | See which playlists have the most songs      | `SELECT`, `FROM`, `ORDER BY`                                       | Largest playlists are easiest to explore |
