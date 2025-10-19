@@ -1,7 +1,7 @@
 # 🎧 SQL Guidebook: Exploring My Spotify Data
 
 ## 🔹 Overview
-This repo uses the Spotify Web API (via spotipy) to extract data about my playlists, tracks, albums, and artists.
+This repo uses the Spotify Web API (via spotipy) to extract data about my playlists, tracks, albums, and artists. (`spotify_data_extract.py`)
 The data is stored locally in an SQLite database (spotify.db), allowing me to explore patterns in my own music taste using SQL queries.
 
 ## 👩🏽‍💻 Database Setup 
