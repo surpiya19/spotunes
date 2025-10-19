@@ -169,53 +169,53 @@ CREATE TABLE playlist_tracks (
 
 ## Exploring my music preferences  -- Outputs!
 
-**1. See how many songs are in each playlist**
+### **1. See how many songs are in each playlist**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.41.05 PM.png>)
 
-**2. Most Popular Tracks Overall**
+### **2. Most Popular Tracks Overall**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.40.28 PM.png>)
 
-**3. Average Track Popularity by Artist**
+### **3. Average Track Popularity by Artist**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.39.50 PM.png>)
 
-**4. Which playlists have the most diverse range of artists**
+### **4. Which playlists have the most diverse range of artists**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.39.11 PM.png>)
 
-**5. Average Song Duration by Playlist**
+### **5. Average Song Duration by Playlist**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.38.36 PM.png>)
 
-**6. Identify playlists with the most explicit content**
+### **6. Identify playlists with the most explicit content**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.34.04 PM.png>)
 
-**7. Find artists that appear most frequently across my playlists**
+### **7. Find artists that appear most frequently across my playlists**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.34.51 PM.png>)
 
-**8. Ranking Artists by Track Popularity**
+### **8. Ranking Artists by Track Popularity**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.35.33 PM.png>)
 
-**9. Compare Latest vs Oldest Albums Per Artists**
+### **9. Compare Latest vs Oldest Albums Per Artists**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.36.42 PM.png>)
 
-**10. Combining Old & New Playlists**
+### **10. Combining Old & New Playlists**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.37.51 PM.png>)
 
-**11. Extracting the Release Year from the Album Release Date**
+### **11. Extracting the Release Year from the Album Release Date**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.28.22 PM.png>)
 
-**12. Replacing names of unnamed tracks and fact checking**
+### **12. Replacing names of unnamed tracks and fact checking**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.03.34 PM.png>)
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.03.12 PM.png>)
 
-**13. Updating artists unknown genres to 'Unknown Genre' and fact checking**
+### **13. Updating artists unknown genres to 'Unknown Genre' and fact checking**
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.07.21 PM.png>)
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.09.48 PM.png>)
 
 ---
 
-## How to use this on your own data:
+## How to use this on your own spotify data:
 1. Clone the repo.
-2. Set .env with your own Spotify credentials.
-3. Run python spotify_data_fetch.py to populate spotify.db.
+2. Set .env with your own Spotify credentials. (client_id, client_secret and redirect_url_callback) [for privacy reasons, i have removed the .env file to ensure my credentials don't get exposed.]
+3. Run python `spotify_data_extract.py` to populate `spotify.db`.
 4. Open spotify.db in any SQL client or use Python sqlite3 to run queries.
 5. Explore the queries in queries.sql or the Jupyter Notebook.
 
