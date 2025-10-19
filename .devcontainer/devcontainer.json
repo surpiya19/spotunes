@@ -17,6 +17,13 @@
               "SPOTIPY_REDIRECT_URI": "${localEnv:SPOTIPY_REDIRECT_URI}"
        },
        "mounts": [
-              "source=${localWorkspaceFolder}/.env,target=/workspace/.env,type=bind,consistency=cached"
-       ]
+              "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+       ],
+       "customizations": {
+              "vscode": {
+                     "extensions": [
+                            "qwtel.sqlite-viewer"
+                     ]
+              }
+       }
 }
