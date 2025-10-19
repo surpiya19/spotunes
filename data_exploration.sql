@@ -138,7 +138,7 @@ LIMIT 10;
 
 
 -- 10. Merge results from two playlist categories
--- CTE, Window Function (LAG), Independent Advanced Feature -- 
+-- UNION -- 
 SELECT name AS playlist_name, num_tracks, 'Short Playlist' AS category
 FROM playlists
 WHERE num_tracks < 20
