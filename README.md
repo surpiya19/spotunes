@@ -170,43 +170,92 @@ CREATE TABLE playlist_tracks (
 ## Exploring my music preferences  -- Outputs!
 
 ### **1. See how many songs are in each playlist**
+**Interpretation:**
+- This shows which playlists contain the most tracks.
+- Playlists with higher numbers might reflect your more active or “catch-all” collections.
+- Useful for understanding the scale of your playlists and prioritizing exploration
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.41.05 PM.png>)
 
 ### **2. Most Popular Tracks Overall**
+**Interpretation:**
+- Displays the top 10 tracks based on Spotify’s popularity metric.
+- Highlights your most mainstream or widely-loved tracks.
+- Can reveal whether your personal taste aligns with Spotify popularity or includes hidden gems.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.40.28 PM.png>)
 
 ### **3. Average Track Popularity by Artist**
+**Interpretation:**
+- Measures how consistently popular an artist’s tracks are.
+- Artists with higher average popularity are “superstars,” whereas lower ones may be hidden gems.
+- Helps identify which artists consistently produce hits versus occasional tracks.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.39.50 PM.png>)
 
 ### **4. Which playlists have the most diverse range of artists**
+**Interpretation:**
+- Shows which playlists have the broadest range of artists.
+- Higher diversity percent = more variety in artists (less repetition).
+- Useful for identifying playlists with eclectic tastes versus artist-heavy playlist
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.39.11 PM.png>)
 
 ### **5. Average Song Duration by Playlist**
+**Interpretation:**
+- Calculates the average song length per playlist.
+- Longer average durations may indicate chill, cinematic, or focus playlists.
+- Shorter durations could signal upbeat, high-energy playlists (e.g., workouts).
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.38.36 PM.png>)
 
 ### **6. Identify playlists with the most explicit content**
+**Interpretation:**
+- Highlights playlists with the highest proportion of explicit tracks.
+- Useful if you want to avoid explicit content or understand playlist “maturity level.”
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.34.04 PM.png>)
 
 ### **7. Find artists that appear most frequently across my playlists**
+**Interpretation:**
+- Shows which artists you tend to playlist the most.
+- High counts = core artists in your collection.
+- Reveals your favorite or most influential artists in your personal taste.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.34.51 PM.png>)
 
 ### **8. Ranking Artists by Track Popularity**
+**Interpretation:**
+- Ranks artists based on their average track popularity.
+- Gives insight into which artists consistently produce “hits” in your library.
+- A good metric for discovering your “superstar” vs “hidden gem” artists.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.35.33 PM.png>)
 
 ### **9. Compare Latest vs Oldest Albums Per Artists**
+**Interpretation:**
+- Compares sequential album releases for each artist.
+- Can reveal trends in release frequency, evolution in style, or gaps between albums.
+- Useful for understanding artist productivity or growth over time.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.36.42 PM.png>)
 
 ### **10. Combining Old & New Playlists**
+**Interpretation:**
+- Splits playlists into “short” and “large” categories.
+- Helps analyze whether playlist size influences diversity, popularity, or content type.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 12.37.51 PM.png>)
 
 ### **11. Extracting the Release Year from the Album Release Date**
+**Interpretation:**
+- Shows the most recent album releases in your library.
+- Useful for tracking trends in your listening habits or identifying “recent additions.”
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.28.22 PM.png>)
 
 ### **12. Replacing names of unnamed tracks and fact checking**
+**Interpretation:**
+- Replaces missing track names with “Unknown Track” for easier analysis.
+- Ensures that missing data doesn’t skew metrics like playlist counts or artist popularity.
+- Fact-check query confirms there are no remaining unnamed tracks.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.03.34 PM.png>)
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.03.12 PM.png>)
 
 ### **13. Updating artists unknown genres to 'Unknown Genre' and fact checking**
+**Interpretation:**
+- Fills missing artist genre data to maintain consistency.
+- Makes genre-based analysis (diversity, popularity by genre) more reliable.
+- Fact-check confirms no null/empty genre values remain.
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.07.21 PM.png>)
 ![alt text](<screenshots/Screenshot 2025-10-19 at 1.09.48 PM.png>)
 
