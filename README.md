@@ -4,7 +4,7 @@
 This repo uses the Spotify Web API (via spotipy) to extract data about my playlists, tracks, albums, and artists.
 The data is stored locally in an SQLite database (spotify.db), allowing me to explore patterns in my own music taste using SQL queries.
 
-## Database Setup 
+## 👩🏽‍💻 Database Setup 
 
 ### Design Principles
 The schema was designed following relational database principles:
@@ -26,7 +26,7 @@ Data was inserted using a Python script with the Spotify API. Each record includ
 - Track details (duration, popularity, explicit)
 - Playlist metadata
 
-### Connection Setup
+### ⫘ Connection Setup
 ```bash
 # Connection to SQLite DB
 conn = sqlite3.connect("spotify.db")
