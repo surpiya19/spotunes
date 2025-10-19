@@ -195,12 +195,12 @@ Data was inserted using a Python script with the Spotify API. Each record includ
 
 11. Extracting the Release Year from the Album Release Date
 
-![alt text](<screenshot/Screenshot 2025-10-19 at 12.58.33 PM.png>)
+![alt text](<screenshots/Screenshot 2025-10-19 at 1.28.22 PM.png>)
 
 12. Replacing names of unnamed tracks and fact checking
 
-![alt text](<screenshot/Screenshot 2025-10-19 at 1.03.34 PM.png>)
-![alt text](<screenshot/Screenshot 2025-10-19 at 1.03.12 PM.png>)
+![alt text](<screenshots/Screenshot 2025-10-19 at 1.03.34 PM.png>)
+![alt text](<screenshots/Screenshot 2025-10-19 at 1.03.12 PM.png>)
 
 13. Updating artists unknown genres to 'Unknown Genre' and fact checking
 
